@@ -1,5 +1,5 @@
 #Understanding the Problem Statement - 
-#Our job is to predict the price of car based on the following features - 
+#Build a machine learning algorithm to predict the price of car based on the following features - 
 #Car brand 
 #Year of manufacturing 
 #Sold price 
