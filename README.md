@@ -90,6 +90,10 @@ Scikit-Learn -
 
 It provides efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction. It has numerous machine learning, pre-processing, cross validation and visualisation algorithms. 
 
+Matplotlib - 
+
+Used for 2D array plots. It includes wide range of plots, such as scatter, line, bar, histogram and others that can assist in delving deeper into trends.
+
 Exploratory data analysis - 
 
 Exploratory data analysis is the process of performing initial investigation on the data to discover patterns or spot anomalies. It is done to test the hypothesis and to check assumptions with the help of summary statistics and graphical representations. 
@@ -179,6 +183,20 @@ Parameters -
 2. Sort - Sort by frequencies.	
 3. Ascending - Sort in ascending order.
 4. Bins - Rather than count values, group them into half-open bins, only works with numeric data.	
+
+Categorical data encoding - 
+
+Datasets contain multiple labels (in the form of words of numbers) in one or more than one columns. Training data is often labelled in words to make the data more human-readable and understandable. Categorical data encoding is coding data to convert it to a machine-readable form. It is an important data preprocessing method. 
+
+There are two types of categorical data 
+1. Ordinal data - categories have an inherent order
+2. Nominal data - no inherent order of categories
+
+Label encoding - 
+
+Label encoding refers to converting labels into numeric form to convert it to machine-readable form. It is an important data preprocessing method for structured dataset in supervised learning. 
+
+Limitation - label encoding assigns a unique number to each class of data. However, this can lead to generation of priority issues in the training of data. A label with high value may be considered to have high priority than a label having a lower value. 
 
 replace() -  
 
